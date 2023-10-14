@@ -47,7 +47,7 @@ main {
   display: flex;
   gap: 3rem;
   border-radius: 3rem;
-  box-shadow: 5px 5px 20px var(--light-lavender);
+  box-shadow: 5px 5px 5px var(--pale-blue);
 }
 
 .result-container {
@@ -85,12 +85,14 @@ main {
 }
 
 .out-score {
-  font-size: 1.2rem;
-  color: var(--light-lavender);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--light-slate-blue);
 }
 
 .result-text {
   font-size: 2.5rem;
+  font-weight: 800;
   color: var(--white);
   margin-top: 3rem;
   margin-bottom: 2rem;
@@ -98,6 +100,7 @@ main {
 
 .result-overview-text {
   width: 22rem;
+  font-weight: 700;
   font-size: 1.5rem;
   color: var(--light-lavender);
 }
@@ -115,6 +118,7 @@ main {
   font-size: 2rem;
   color: var(--dark-gray-blue);
   margin-bottom: 2.5rem;
+  font-weight: 800;
 }
 
 .summary-container div {
@@ -170,18 +174,21 @@ main {
 
 .summary-score {
   color: var(--dark-gray-blue);
+  font-weight: 800;
 }
 
 .summary-total {
   color: var(--light-lavender);
+  font-weight: 800;
 }
 
 button {
   width: 25rem;
-  font-weight: 700;
-  color: var(--white);
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--pale-blue);
   background-color: #4f39f4;
-  padding: 1.5rem;
+  padding: 1.3rem;
   border: none;
   border-radius: 50px;
   margin-top: 2.5rem;
