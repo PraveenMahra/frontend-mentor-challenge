@@ -198,3 +198,24 @@ button {
 button:hover {
   background-color: var(--dark-gray-blue);
 }
+
+@media (max-width: 45rem) {
+  main {
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    gap: 0px;
+  }
+
+  .result-container {
+    border-radius: 0 0 3rem 3rem;
+  }
+
+  .summary-container div {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+}
